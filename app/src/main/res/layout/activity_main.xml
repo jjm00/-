@@ -7,24 +7,5 @@
     android:orientation="vertical"
     android:background="@android:color/background_dark">
 
-    <TextView
-        android:id="@+id/tv_date"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="@android:color/white"
-        android:gravity="center_vertical"
-        android:paddingLeft="10dp"
-        android:textColor="@android:color/white"
-        android:textSize="20sp"/>
-    
-    <GridView
-        android:layout_marginTop="10dp"
-        android:id="@+id/gridview"
-        android:layout_weight="1"
-        android:layout_height="0dp"
-        android:layout_width="match_parent"
-        android:numColumns="7"
-        android:listSelector="@android:color/holo_green_light"
-        >
-    </GridView>
+
 </LinearLayout>
